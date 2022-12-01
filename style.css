@@ -7,6 +7,12 @@ h1 {
     font-size: 50px;
 }
 
+p {
+    text-align: justify;
+    margin-bottom: 30px;
+    padding-right: 5%;
+}
+
 .orange-color {
     color: orange;
 }
@@ -20,10 +26,15 @@ h1 {
     width: 80%;
 }
 
+.image {
+    margin-top: 25px;
+}
+
 .flex {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 150px;
 }
 
 .link-button {
@@ -38,4 +49,10 @@ h1 {
 .top-banner {
     background-image: url(assets/images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.dream-big {
+    background-image: url(assets/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
