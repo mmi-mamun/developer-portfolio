@@ -5,6 +5,8 @@ body {
 
 h1 {
     font-size: 50px;
+    padding: 0;
+    margin: 0;
 }
 
 p {
@@ -75,10 +77,11 @@ p {
 
 .one-third {
     width: 30%;
-    margin: 2% 3%;
+    margin: 2% 2%;
     padding: 1%;
     box-shadow: 10px 10px 40px grey;
     border-radius: 5px;
+    min-height: 600px;
 }
 
 #first-project {
