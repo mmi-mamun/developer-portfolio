@@ -13,10 +13,6 @@ p {
     padding-right: 5%;
 }
 
-.orange-color {
-    color: orange;
-}
-
 .half-width {
     width: 50%;
     padding-left: 5%;
@@ -55,4 +51,44 @@ p {
     background-image: url(assets/images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.projects-section {
+    background-image: url(assets/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.project-header {
+    margin: 10px 3%;
+}
+
+.project-title {
+    color: tomato;
+    text-align: center;
+}
+
+.bullet-point {
+    padding: 10px;
+    text-align: justify;
+}
+
+.one-third {
+    width: 30%;
+    margin: 2% 3%;
+    padding: 1%;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 5px;
+}
+
+#first-project {
+    border-left: 7px solid tomato;
+}
+
+#second-project {
+    border-left: 7px solid blue;
+}
+
+#third-project {
+    border-left: 7px solid orange;
 }
